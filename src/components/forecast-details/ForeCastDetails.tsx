@@ -1,6 +1,6 @@
 import { ForeCastDetailsProps } from "../../models/forecast-details";
 import { kelvinToCelsius } from "../../services/kelvin-to-celsius";
-import { DAYS } from "../../constants/constants";
+import { days } from "../../constants/constants";
 
 export const ForeCastDetails = (props: ForeCastDetailsProps) => {
   const { forecast } = props;
@@ -11,13 +11,13 @@ export const ForeCastDetails = (props: ForeCastDetailsProps) => {
     <div className="forecast">
       <div className="forecast-titles">
         <div className="forecast-day">
-          {DAYS[currentDay > 6 ? 0 : currentDay + 1]}
+          {days[currentDay > 6 ? 0 : currentDay + 1]}
         </div>
         <div className="forecast-day">
-          {DAYS[currentDay > 6 ? 1 : currentDay + 2]}
+          {days[currentDay > 6 ? 1 : currentDay + 2]}
         </div>
         <div className="forecast-day">
-          {DAYS[currentDay > 6 ? 2 : currentDay + 3]}
+          {days[currentDay > 6 ? 2 : currentDay + 3]}
         </div>
       </div>
       <div className="forecast-items">

@@ -1,4 +1,4 @@
-import { WeatherForecasts } from "./components/whether-forecasts/WeatherForecasts";
+import { WeatherForecasts } from "./components/weather-forecasts/WeatherForecasts";
 import './App.css';
 
 function App() {

@@ -1,4 +1,4 @@
 export type CurrentWeatherDetailsProps = {
   selectedCity: string,
-  currentWhether: any
+  currentWeather: any
 }

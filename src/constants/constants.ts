@@ -1,4 +1,4 @@
-export const CITIES_DATA: any[] = [
+export const cityData: any[] = [
   {
     "id":3038789,
     "nm":"Abbeville",
@@ -28933,12 +28933,12 @@ export const CITIES_DATA: any[] = [
   }
 ]
 
-export const DAYS: any = {
-  0: "SUNDAY",
-  1: "MONDAY",
-  2: "TUESDAY",
-  3: "WEDNESDAY",
-  4: "THURSDAY",
-  5: "FRIDAY",
-  6: "SATURDAY"
+export const days: any = {
+  0: "SUN",
+  1: "MON",
+  2: "TUE",
+  3: "WED",
+  4: "THU",
+  5: "FRI",
+  6: "SAT"
 }

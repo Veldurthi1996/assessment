@@ -1,6 +1,6 @@
-export type weather = {
+export type cityDetails = {
   selectedCity: string;
-  currentWhether: any;
+  currentWeather: any;
   forecast: any [];
   loading: boolean;
 }

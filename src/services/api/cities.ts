@@ -1,5 +1,5 @@
-import { CITIES_DATA } from "../../constants/constants";
+import { cityData } from "../../constants/constants";
 
 export const fetchCities = () => {
-  return CITIES_DATA;
+  return cityData;
 }
