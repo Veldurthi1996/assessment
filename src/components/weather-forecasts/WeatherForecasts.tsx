@@ -8,6 +8,7 @@ import { CurrentWeatherDetails } from "../current-weather-details/CurrentWeather
 import { ForeCastDetails } from "../forecast-details/ForeCastDetails";
 import { LoadingOutlined } from "@ant-design/icons";
 import { groupBy } from "lodash";
+import { WEATHER_FORECAST } from "../../constants/constants";
 import "./WeatherForecasts.css";
 
 export const WeatherForecasts = () => {
@@ -82,7 +83,7 @@ export const WeatherForecasts = () => {
   return (
     <div className="whether-page">
       <div className="header">
-        <h1>Whether Forecast</h1>
+        <h1>{WEATHER_FORECAST}</h1>
       </div>
       <div className="whether-container">
         <div className="filter-container">

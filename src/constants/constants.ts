@@ -28942,3 +28942,5 @@ export const days: any = {
   5: "FRI",
   6: "SAT"
 }
+
+export const WEATHER_FORECAST = "Weather Forecast";
